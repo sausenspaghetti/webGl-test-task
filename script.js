@@ -77,8 +77,6 @@ function onDragMove()
 
 
 
-
-
 app.view.addEventListener('click', () => {
     if (is_inside_graphics){
         graphics.alpha = 0.5;
